@@ -17,7 +17,7 @@ docker compose exec mysql mysql kyototech
 
 テーブル作成
 ```bash
-CREATE TABLE `hogehoge`(
+CREATE TABLE `posts`(
     `text` TEXT NOT NULL,
     `created_at` DATETIME DEFAULT CURRENT_TIMESTAMP
 );
